@@ -1,11 +1,17 @@
 import React, { Component } from "react";
 import { Link, Route, Switch } from "react-router-dom";
 import "../styles/App.css";
-import Home from "./Home";
-import About from "./About";
-import Error from "./Error";
 import LocationDisplayComponent from "./LocationDisplayCompnent";
 
+function Home() {
+  return <div>You are home</div>;
+}
+function About() {
+  return <div>You are on about page</div>;
+}
+function Error() {
+  return <div>No match</div>;
+}
 class App extends Component {
   render() {
     return (
@@ -24,4 +30,4 @@ class App extends Component {
 }
 
 export default App;
-//export const LocationDisplay = LocationDisplayComponent;
+export const LocationDisplay = LocationDisplayComponent;

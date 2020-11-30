@@ -7,7 +7,7 @@ function Home() {
   return <div>You are home.</div>;
 }
 function About() {
-  return <div>You are on about page.</div>;
+  return <div>You are on the about page.</div>;
 }
 function Invalid() {
   return <div>No match</div>;

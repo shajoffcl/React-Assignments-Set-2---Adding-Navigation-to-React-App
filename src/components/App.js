@@ -4,7 +4,7 @@ import "../styles/App.css";
 import Home from "./Home";
 import About from "./About";
 import Error from "./Error";
-import LocationDisplay from "./LocationDisplay";
+import LocationDisplayComponent from "./LocationDisplayCompnent";
 
 class App extends Component {
   render() {
@@ -17,10 +17,11 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route path="/" component={Error} />
         </Switch>
-        <LocationDisplay />
+        <LocationDisplayComponent />
       </div>
     );
   }
 }
 
 export default App;
+export const LocationDisplay = LocationDisplayComponent;

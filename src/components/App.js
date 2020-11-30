@@ -4,10 +4,10 @@ import "../styles/App.css";
 import LocationDisplayComponent from "./LocationDisplayCompnent";
 
 function Home() {
-  return <div>You are home</div>;
+  return <div>You are home.</div>;
 }
 function About() {
-  return <div>You are on about page</div>;
+  return <div>You are on about page.</div>;
 }
 function Error() {
   return <div>No match</div>;

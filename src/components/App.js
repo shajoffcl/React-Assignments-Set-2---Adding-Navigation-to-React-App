@@ -9,7 +9,7 @@ function Home() {
 function About() {
   return <div>You are on about page.</div>;
 }
-function Error() {
+function Invalid() {
   return <div>No match</div>;
 }
 class App extends Component {
@@ -22,7 +22,7 @@ class App extends Component {
           <Switch>
             <Route path="/about" component={About} />
             <Route path="/" exact component={Home} />
-            <Route path="/" component={Error} />
+            <Route path="/" component={Invalid} />
           </Switch>
           <LocationDisplayComponent />
         </div>
